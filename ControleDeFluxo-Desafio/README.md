@@ -5,7 +5,7 @@ Este projeto implementa um sistema que solicita dois números inteiros do usuár
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-- Java 8+
+- Java 
 - Scanner para entrada de dados
 - Try/Catch para tratamento de exceções
 
@@ -25,9 +25,9 @@ Este projeto implementa um sistema que solicita dois números inteiros do usuár
 ### 1. **Entrada de Dados**
 O código usa um **loop `while`** para garantir que o usuário forneça entradas válidas:
 ```java
-Scanner terminal = new Scanner(System.in);
-int parametroUm = 0, parametroDois = 0;
-boolean entradaValida = false;
+Scanner sc = new Scanner(System.in);
+int number1 = 0; number2 = 0;
+boolean validInput = false;
 ```
 - **Enquanto** a entrada for inválida, continua pedindo os valores ao usuário.
 - Converte os valores de `String` para `int`.
@@ -53,17 +53,18 @@ class ParametrosInvalidosException extends Exception {
     }
 }
 ```
-Essa exceção é **lançada** no método `contar()` se `parametroUm > parametroDois`.
+Essa exceção é **lançada** no método `contar()` se `number1> number2`.
 
 ### 4. **Execução da Contagem**
 Se os valores forem válidos, chamamos o método `contar()`:
 ```java
-static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException {
-    if (parametroUm > parametroDois) {
+static void contar(int n1, int n2) throws ParametrosInvalidosException {
+    if (n1 > n2) {
         throw new ParametrosInvalidosException("O segundo parâmetro deve ser maior que o primeiro.");
+    int count = n2-n1
     }
-    for (int i = 1; i <= (parametroDois - parametroUm); i++) {
-        System.out.println("Imprimindo o número " + i);
+    for (int i = 1; i <= count; i++) {
+        System.out.println((i)+" Interecation");
     }
 }
 ```
