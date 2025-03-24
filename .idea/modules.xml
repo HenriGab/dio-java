@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ContaBanco - desafio/ContaBanco - desafio.iml" filepath="$PROJECT_DIR$/ContaBanco - desafio/ContaBanco - desafio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Controle-candidatos/Controle-candidatos.iml" filepath="$PROJECT_DIR$/Controle-candidatos/Controle-candidatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ControleDeFluxo-Desafio/ControleDeFluxo-Desafio.iml" filepath="$PROJECT_DIR$/ControleDeFluxo-Desafio/ControleDeFluxo-Desafio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DebbugingAula/DebbugingAula.iml" filepath="$PROJECT_DIR$/DebbugingAula/DebbugingAula.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA-GIT.iml" filepath="$PROJECT_DIR$/.idea/JAVA-GIT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Msn-Project/Msn-Project.iml" filepath="$PROJECT_DIR$/Msn-Project/Msn-Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TratamentoErro/TratamentoErro.iml" filepath="$PROJECT_DIR$/TratamentoErro/TratamentoErro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tipos-variaveis/tipos-variaveis.iml" filepath="$PROJECT_DIR$/tipos-variaveis/tipos-variaveis.iml" />
+    </modules>
+  </component>
+</project>
